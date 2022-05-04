@@ -14,10 +14,10 @@ class Calculator {
 public class Main {
     public static void main(String[] args) {
 
-        Calculator calculator1 = new Calculator();
+        Calculator calculator = new Calculator();
 
-        calculator1.addNumbers();
-        calculator1.substractNumbers();
+        calculator.addNumbers();
+        calculator.substractNumbers();
 
     }
 }
